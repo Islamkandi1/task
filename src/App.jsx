@@ -5,7 +5,7 @@ import AllTasks from "./components/tasks/AllTasks";
 import TaskDetails from "./components/TaskDetails/TaskDetails";
 import { Toaster } from "react-hot-toast";
 import AllTasksProvider from "./context/AllTasksProvider";
-import TaskPage from "./components/page/taskPage";
+import TaskPage from "./components/page/TaskPage";
 
 function App() {
   const router = createBrowserRouter([
